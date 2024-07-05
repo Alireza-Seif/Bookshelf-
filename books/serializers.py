@@ -9,4 +9,4 @@ class BookListSerializer(serializers.ModelSerializer):
 class BookDetailSerializer(serializers.ModelSerializer):
     class Meta:
         model = Book
-        fields = ('title','author','code')
+        fields = '__all__'
