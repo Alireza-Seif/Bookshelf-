@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'books.apps.BooksConfig',
     'rest_framework',
+    'rest_framework.authtoken',
     'corsheaders',
 ]
 
